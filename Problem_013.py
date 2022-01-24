@@ -1,3 +1,6 @@
+# Euler Problem 013
+# Solved 16 January 2021
+
 
 nums = str("""37107287533902102798797998220837590246510135740250 
 46376937677490009712648124896970078050417018260538 
@@ -111,5 +114,5 @@ d = [str(dig) for dig in str(tot)]
 ans = str("")
 for i in range(0,10):
     ans = ans + str(d[i])
-print(tot)
+# print(tot)
 print(ans)
